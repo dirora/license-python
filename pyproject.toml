@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dirora-license"
+version = "1.0.0"
+description = "Dirora software licensing client: activate, check in, update and run offline with signed licence answers."
+requires-python = ">=3.9"
+dependencies = ["cryptography>=41"]
+license = { text = "MIT" }
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/dirora/license-python"
+Source = "https://github.com/dirora/license-python"
+Issues = "https://github.com/dirora/license-python/issues"
+
+[tool.setuptools]
+packages = ["dirora_license"]
